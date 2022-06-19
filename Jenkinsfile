@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout'){
             steps{
-                git branch: 'https://github.com/Hermann90/helloworld_jan_22.git'
+                git branch: 'https://github.com/Biba2022/geolocation.git'
             }
         }
         stage('Code Build') {
